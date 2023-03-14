@@ -1,0 +1,22 @@
+.foot{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+
+}
+.socials .socials-a{
+    padding-left: 15px;
+    color: black;
+    background-color: #e8e6e6;
+
+
+}
+.socials a i{
+    transition: color .4s ease;
+
+}
+.socials .socials-a:hover {
+    color: blue;
+
+}

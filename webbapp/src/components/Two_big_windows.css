@@ -1,0 +1,7 @@
+.two-big-windows{
+    display: grid;
+   grid-template-columns: .5fr 1fr;
+    gap: 30px;
+    padding-left: 11.3%;
+    padding-right:11.3%;
+}

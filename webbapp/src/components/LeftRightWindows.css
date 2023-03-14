@@ -1,0 +1,154 @@
+/********************************** 4 cards left and right *********/
+.one-big-block-left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+.one-big-block-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+.block-left{
+    height: 1000px;
+    width: 38%;
+    margin-top: 100px;
+    background-color: #a1a4ab;
+    text-align: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.block-right{
+    padding-top: 2rem;
+    width: 38%;
+    margin-top: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.one-big-block-left .block-left .writing1{
+    padding-top: 65%;
+    color: white;
+}
+
+.one-big-block-right .block-left .writing2{
+    padding-top: 65%;
+    color: white;
+}
+/******************************************** 4 cards left and right **********************/
+
+.card{
+    border: none;
+    width: 255px;
+
+}
+
+.card .img{
+    height: 210px;
+    width: 255px;
+    position: relative;
+}
+._container{
+    max-width: 1110px;
+    align-items: center;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.writing1 .btn{
+    background-color: var(--color-theme);
+}
+.writing2 .btn{
+    background-color: var(--color-theme);
+}
+.card .img .btn-secondary{
+
+    display:none;
+    background-color: var(--color-theme);
+    border: none;
+    width: 100%;
+    border-radius: 0;
+
+}
+.card:hover .img .btn-secondary{
+    display: block;
+    transform: scale(1.03);
+
+}
+.card .img .btn-secondary:hover{
+    background-color: black;
+
+}
+
+.card .card-body{
+    text-align: center;
+    width: 255px;
+}
+.card .card-body .card-category{
+    text-align: center;
+    font-size: 13px;
+
+    color: var(--color-darkgray);
+}
+.card .card-body .card-title{
+    text-align: center;
+}
+.card .card-body .card-rating{
+    text-align: center;
+    color: var(--color-theme);
+}
+
+.card .card-body .card-price{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.col{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col .card .card-menu{
+    text-align: right;
+    display: none;
+    padding-right: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+.col .card:hover .card-menu{
+    display: flex;
+    flex-direction: column;
+    transform: scale(1.03);
+
+}
+.col .card:hover .card-price{
+
+    filter: blur(0.9px);
+    color: red;
+
+}
+.col .card .card-menu .dot-1{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 15%;
+    margin: 8px;
+    text-align: center;
+}
+.col .card .card-menu .dot-1:hover{
+    color: white;
+    background-color: black;
+
+}

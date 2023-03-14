@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.menu-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-links .dot {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 4%;
+    margin: 10px;
+    text-align: center;
+    color: var(--color-dark);
+    box-shadow: var(--color-shadow) ;
+    position: relative;
+}
+.menu-links .dot:hover {
+   color: white;
+    background-color: black;
+}
+.nav-link{
+    padding-left: 20%;
+}
