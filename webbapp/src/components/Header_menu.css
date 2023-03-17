@@ -1,0 +1,30 @@
+
+.topnav{
+    padding-top: 20px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding-right: 14px;
+    padding-left: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #d7d7d7;
+}
+.topnav a:hover {
+    color: var(--color-theme);
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}

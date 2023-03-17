@@ -1,0 +1,35 @@
+.four-support-info .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.four-support-info .info-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3rem;
+    flex:1;
+}
+.four-support-info .info-box img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 4%;
+}
+
+.four-support-info .info-box:hover h1{
+    color: var(--color-dark);
+}
+
+.four-support-info .info-box h1 {
+    color: black;
+    font-size: 20px;
+}
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
